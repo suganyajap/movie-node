@@ -4,7 +4,7 @@ import sgMail from "@sendgrid/mail"
 import { client } from "../index.js"
 
 const router = express.Router();
-const CLIENT_URL = "https://inspiring-ramanujan-6d5121.netlify.app"
+const CLIENT_URL = "http://localhost:3000"
 
 
 router.route('/').put(async (req, res) => {
